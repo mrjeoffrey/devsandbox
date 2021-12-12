@@ -145,6 +145,8 @@ label {
   width: 15%;
   font-family:'Courier New', Courier, monospace;
   font-weight:700;
+  text-transform:capitalize;
+  letter-spacing: 1pt;
 }
   
 input, 
@@ -155,6 +157,11 @@ textarea {
   border: 1px solid #b4b4b4;
   border-radius: 5px;
   margin-bottom: 15px;
+}
+
+input {
+  font-family:'Courier New', Courier, monospace;
+  padding: 3px 10px;
 }
 
 textarea {
