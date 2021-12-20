@@ -32,7 +32,7 @@ nav ul {
 }
 .tag {
   text-transform:uppercase;
-  font-size:.50em;
+  font-size:.60em;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight:700;
   position: absolute;
@@ -92,7 +92,7 @@ header h1 {
 figcaption {
   position: absolute;
   float:right;
-  font-size:7pt;
+  font-size:8pt;
   font-family:courier;
   color: #fff;;
   margin-top:715px;
@@ -210,10 +210,6 @@ textarea {
   box-shadow: none;
 }
 
- 
-
-
-
 .logo1 {
   font-weight:bolder;
 }
@@ -241,7 +237,6 @@ textarea {
   border-bottom: 6px solid rgba(255, 255, 255, 0.471);
 }
 
-
 footer {
   position: absolute;
   bottom: 0;
@@ -254,7 +249,6 @@ footer {
   line-height:40px;
   background-color: #24292f;
 }
-
 
 /* Sticky Footer Code */
 .wrapper { /* All Content Here */
