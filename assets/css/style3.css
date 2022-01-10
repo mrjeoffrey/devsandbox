@@ -1,0 +1,35 @@
+/* CSS GRID STRUCTURE */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; 
+    grid-template-rows: 60px 300px max-content 60px;
+    justify-content: center;
+}
+
+header {
+    grid-column: 1 / -1;
+}
+
+aside {
+    grid-column: 1/2;
+    grid-row: span 2;
+}
+
+main {
+    grid-column: 2/-1;
+    grid-row: span 2;
+}
+
+footer {
+    grid-column: 1/-1;
+}
+
+
+
+/* STYLES */
+* {
+    border: 1px solid black;
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
